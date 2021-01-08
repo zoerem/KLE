@@ -1,0 +1,62 @@
+body{
+    margin: 6% 10%;
+    background-color: #181719;    
+}
+h1{
+    color: white;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 4.5em;
+    margin: 0;
+    line-height: 100%;
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  1.5em;
+}
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  1.25em;
+}
+a{
+    text-decoration: none;
+}
+
+.flexbox{
+    display: flex;
+}
+.content{
+    padding-top: 4em;
+    max-width: 90%;
+}
+.header {
+    max-width: 680px;
+}
+.images {
+    width: 100%;
+    height:  auto;
+}
+/* .light-open:hover{
+    display:none;
+
+}
+.light-closed{
+    display: none;
+}
+.light-closed:hover{
+    display: block;
+} */
+
+.padding{
+    padding-left: 1em;
+}
+.icon:hover{
+    transform: scale(1.15);
+}
+
+.footer{
+    padding-top: 8%;
+    text-align: center;
+}
