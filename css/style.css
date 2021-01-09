@@ -4,8 +4,8 @@ body{
 }
 h1{
     color: white;
-    font-family: 'Cormorant Infant', serif;
-    font-size: 4.5em;
+    font-family: 'Skia', sans-serif;
+    font-size: 4em;
     margin: 0;
     line-height: 100%;
 }
@@ -24,9 +24,15 @@ a{
     text-decoration: none;
 }
 
-.flexbox{
+.flexbox1{
     display: flex;
 }
+
+.flexbox2{
+    display: flex;
+    margin-top: 2em;
+}
+
 .content{
     padding-top: 4em;
     max-width: 90%;
@@ -38,19 +44,20 @@ a{
     width: 100%;
     height:  auto;
 }
-/* .light-open:hover{
-    display:none;
-
-}
 .light-closed{
-    display: none;
+    z-index:-1;
+    width: 100%;
+    height:  auto;
+    min-width: 125px;
 }
-.light-closed:hover{
-    display: block;
-} */
 
 .padding{
     padding-left: 1em;
+}
+.icon{
+    width:100%;
+    height: auto;
+    max-width: 60px;
 }
 .icon:hover{
     transform: scale(1.15);
@@ -59,4 +66,10 @@ a{
 .footer{
     padding-top: 8%;
     text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    .flexbox1{
+        flex-direction: column-reverse;
+    }
 }

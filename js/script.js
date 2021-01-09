@@ -1,4 +1,5 @@
-$(".light-open").fadeOut(function() { 
-  $(this).load(function() { $(this).fadeIn(); }); 
-  $(this).attr("src", "images/lightbulb-closed.png"); 
-}); 
+// $(".light-open").fadeOut("3000", function() { 
+// }); 
+// $(".light-closed").fadeIn("3000", function(){
+//  }); 
+
