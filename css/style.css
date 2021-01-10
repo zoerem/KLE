@@ -1,6 +1,6 @@
 body{
     margin: 6% 10%;
-    background-color: #181719;    
+    background-color: #1d1e23;    
 }
 h1{
     color: white;
@@ -35,7 +35,7 @@ a{
 
 .content{
     padding-top: 4em;
-    max-width: 90%;
+    max-width: 560px;
 }
 .header {
     max-width: 680px;
@@ -48,7 +48,7 @@ a{
     z-index:-1;
     width: 100%;
     height:  auto;
-    min-width: 125px;
+    min-width: 240px;
 }
 
 .padding{
@@ -62,14 +62,23 @@ a{
 .icon:hover{
     transform: scale(1.15);
 }
+.right{
+    padding-left:2em;
 
+}
 .footer{
     padding-top: 8%;
     text-align: center;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1023px){
     .flexbox1{
         flex-direction: column-reverse;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+    .content{
+        max-width: 90%;
     }
 }
